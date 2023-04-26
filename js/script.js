@@ -29,7 +29,7 @@ for (let i = 0; i < totalFilterBtn; i++) {
                 portfolioItems[k].classList.remove("show")
                 portfolioItems[k].classList.add("hide")
             }
-            if (filterValue === "all") {
+            if (filterValue === "all") { 
                 portfolioItems[k].classList.remove("hide");
                 portfolioItems[k].classList.add("show");
             }
